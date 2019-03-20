@@ -34,4 +34,10 @@ describe('ConditionsCalculator', function() {
     });
   });
   
+  describe('dayScore', function() {
+    it('should calculate the day score by calculating the average of the wind direction, swell period and wave size scores', function() {
+      expect(conditions.dayScore()).toEqual(4.67);
+    });
+  });
+  
 });
