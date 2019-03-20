@@ -17,14 +17,20 @@ describe('ConditionsCalculator', function() {
   });
   
   describe('windDirectionScore', function() {
-    it('should calculate the wind direction score based on wind condition', function() {
+    it('should calculate the wind direction score', function() {
       expect(conditions.windDirectionScore()).toEqual(5);
     });
   });
   
   describe('swellPeriodScore', function() {
-    it('should calculate the swellPeriod score based on swell Period', function() {
+    it('should calculate the swellPeriod score', function() {
       expect(conditions.swellPeriodScore()).toEqual(4);
+    });
+  });
+  
+  describe('waveSizeScore', function() {
+    it('should calculate the wave size score', function() {
+      expect(conditions.waveSizeScore()).toEqual(5);
     });
   });
   
