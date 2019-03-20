@@ -15,4 +15,10 @@ describe('ConditionsCalculator', function() {
       expect(conditions.waveSize).toEqual(32.56);
     });
   });
+  
+  describe('windDirectionScore', function() {
+    it('should calculate the wind direction score based on wind condition', function() {
+      expect(conditions.windDirectionScore).toEqual(5);
+    });
+  });
 });
