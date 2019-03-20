@@ -44,4 +44,11 @@ export class ConditionsCalculator {
     }
   }
   
+  dayScore() {
+    let windDirection = this.windDirectionScore();
+    let swellPeriod = this.swellPeriodScore();
+    let waveSize = this.waveSizeScore();
+    return ((windDirection + swellPeriod + waveSize) / 3).toFixed(3);
+  }
+  
 }
