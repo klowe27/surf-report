@@ -18,7 +18,7 @@ describe('ConditionsCalculator', function() {
   
   describe('windDirectionScore', function() {
     it('should calculate the wind direction score based on wind condition', function() {
-      expect(conditions.windDirectionScore).toEqual(5);
+      expect(conditions.windDirectionScore()).toEqual(5);
     });
   });
 });
