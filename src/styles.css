@@ -1,3 +1,69 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(151,179,255);
+  background: linear-gradient(0deg, rgba(151,179,255,.8) 0%, rgba(253,29,29,.8) 51%, rgba(252,244,69,.8) 100%);
+  font-family: helvetica neue;
+  font-weight: lighter; 
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
-  color: red;
+  color: white;
+  font-weight: 100;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.date {
+  font-size: 60px;
+}
+
+.time {
+  font-size: 30px;
+}
+
+.score {
+  background-color: rgba(253, 29, 29, .6);
+  color: white;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: text-bottom;
+  position: relative;
+}
+
+.label {
+  font-size: 20px;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scoreNumber {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dayStats {
+  font-size: 20px;
+  font-weight: 300; 
 }

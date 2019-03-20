@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Surf Conditions</title>
+    <title>Current Surf Conditions</title>
   </head>
   <body>
-    <h1>Surf Conditions</h1>
-    <div id='results'></div>
+    <div class='container'>
+      <h1>Current Surf Conditions</h1>
+      <div class='date'><span id='month'></span>-<span id='day'></span>-<span id='year'></span></div>
+      <div class='time'><span id='hour'> hr</span><span id='minutes'> min</span></div>
+
+      <div class='score'><span class='label'>Day Score</span><br><span id='dayScore' class='scoreNumber'></span></div>
+      <div class='dayStats'>
+        <div>Wind Direction: <span id='windDirection'></span></div>
+        <div>Wind Wave Height: <span id='windWaveHeight'></span></div>
+        <div>Wind Wave Period: <span id='windWavePeriod'></span></div>
+        <div>Steepness: <span id='steepness'></span></div>
+        <div>Swell Direction: <span id='swellDirection'></span></div>
+        <div>Swell Period: <span id='swellPeriod'></span></div>
+        <div>Swell Height: <span id='swellHeight'></span></div>
+      </div>
+      <div class='errors'></div>
+    </div>
   </body>
 </html>
