@@ -30,4 +30,18 @@ export class ConditionsCalculator {
     }
   }
   
+  waveSizeScore() {
+    if (this.waveSize >= 30) {
+      return 5;
+    } else if (this.waveSize >= 25) {
+      return 4;
+    } else if (this.waveSize >= 20) {
+      return 3;
+    } else if (this.waveSize >= 11){
+      return 2;
+    } else {
+      return 1;
+    }
+  }
+  
 }
