@@ -21,4 +21,11 @@ describe('ConditionsCalculator', function() {
       expect(conditions.windDirectionScore()).toEqual(5);
     });
   });
+  
+  describe('swellPeriodScore', function() {
+    it('should calculate the swellPeriod score based on swell Period', function() {
+      expect(conditions.swellPeriodScore()).toEqual(4);
+    });
+  });
+  
 });
