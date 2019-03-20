@@ -11,7 +11,7 @@ This app is a simple Surf Report application using the buoy data provided by NOA
 
 ## Setup/Installation Requirements
 
-* To view this project locally, clone this repository with `git clone https://github.com/klowe27/Surf-Report`
+* To view this project locally, clone this repository with `git clone https://github.com/klowe27/surf-report`
 * Navigate into the directory and use command `npm install`
 * To open the application in Chrome, use command `npm run start`
 * To run the test suite, use command `npm test`
